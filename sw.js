@@ -1,5 +1,5 @@
 // import { updateDynamicCache } from '/js/sw-utils.js'
-importScripts('/js/sw-utils.js')
+importScripts('js/sw-utils.js')
 
 const static_cache = 'static-v1'
 const dynamic_cache = 'dynamic-v1'
@@ -23,8 +23,8 @@ const app_shell_inmutable = [
   'https://fonts.googleapis.com/css?family=Quicksand:300,400',
   'https://fonts.googleapis.com/css?family=Lato:400,300',
   'https://use.fontawesome.com/releases/v5.3.1/css/all.css',
-  '/css/animate.css',
-  '/js/libs/jquery.js'
+  'css/animate.css',
+  'js/libs/jquery.js'
 ]
 
 function cleanCache(cacheName, itemNumbers) {
